@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import Header from "./Header";
-import { BG_IMG, LOGO_URL, USER_AVATAR } from "../utils/logos";
+import { BG_IMG, USER_AVATAR } from "../utils/logos";
 import { validateData } from "../utils/validate";
 import { auth } from "../utils/firebase";
 import {
@@ -28,7 +28,7 @@ const Login = () => {
       email.current.value,
       password.current.value
     );
-    console.log(name, email, password);
+    // console.log(name, email, password);
 
     setError(errorMessage);
 
@@ -80,7 +80,7 @@ const Login = () => {
       )
         .then((userCredential) => {
           // Signed in
-          const user = userCredential.user;
+          // const user = userCredential.user;
           navigate("/browse");
         })
         .catch((error) => {
