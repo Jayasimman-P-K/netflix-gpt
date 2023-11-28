@@ -3,7 +3,7 @@ import { PLAY_ICON } from "../utils/logos";
 
 const VideoTitle = ({ title, overview }) => {
   return (
-    <div className="pt-[15%] px-16 text-white absolute bg-gradient-to-r from-black aspect-video w-full">
+    <div className="pt-[15%] px-14 text-white absolute bg-gradient-to-r from-black aspect-video w-full">
       <h1 className="text-6xl font-bold my-8 w-1/2">{title}</h1>
       <h1 className="my-4 w-1/3 text-lg font-semibold">{overview}</h1>
       <div className="flex my-2">

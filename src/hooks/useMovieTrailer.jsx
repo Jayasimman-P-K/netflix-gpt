@@ -20,9 +20,8 @@ const useMovieTrailer = (movieId) => {
     );
 
     const trailer = filterTrailers.length
-      ? filterTrailers[0]
+      ? filterTrailers.pop()
       : json?.results[0];
-    // console.log(trailer, filterTrailers[0], json?.results[0]);
     dispatch(addTrailerVideo(trailer));
   };
 
