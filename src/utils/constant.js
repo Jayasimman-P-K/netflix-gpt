@@ -16,4 +16,4 @@ export const INFO_ICON =
   "https://img.icons8.com/sf-regular-filled/48/000000/information.png";
 
 export const OPEN_API_KEY =
-  "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";
+  "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";

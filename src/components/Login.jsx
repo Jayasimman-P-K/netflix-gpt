@@ -95,11 +95,15 @@ const Login = () => {
     <div className="bg-gradient-to-b from-black">
       <Header />
       <div className="absolute">
-        <img className="" src={BG_IMG} alt="logo" />
+        <img
+          className="h-screen object-cover md:h-auto"
+          src={BG_IMG}
+          alt="logo"
+        />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="absolute text-white bg-black my-28 mx-auto p-16 py-12 right-0 left-0 w-[30%] rounded-lg bg-opacity-[0.85]"
+        className="absolute text-white bg-black my-[40%] md:my-28 mx-auto p-8 md:p-16 md:py-12 right-0 left-0 md:w-[30%] rounded-lg bg-opacity-[0.85] w-11/12"
         action=""
       >
         <h1 className="text-3xl py-3 my-2 font-semibold">

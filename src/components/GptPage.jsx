@@ -8,8 +8,12 @@ const GptPage = () => {
   const isSuggestion = useSelector((store) => store.gpt.movieNames);
   return (
     <div className="flex items-center flex-col ">
-      <div className=" -z-10 fixed">
-        <img className="" src={BG_IMG} alt="logo" />
+      <div className=" -z-10 fixed w-full">
+        <img
+          className="md:h-auto h-screen object-cover"
+          src={BG_IMG}
+          alt="logo"
+        />
       </div>
       <GptSearchBar />
       {isSuggestion && <GptSuggestionContainer />}
