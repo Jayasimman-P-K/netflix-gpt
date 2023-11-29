@@ -1,5 +1,3 @@
-export const TMDB_API_KEY = "37aa5a2da8ec372b4f73c36f84e8e000";
-
 export const API_OPTIONS = {
   method: "GET",
   headers: {
@@ -13,3 +11,9 @@ export const MOVIE_CARD_URL = "https://image.tmdb.org/t/p/w500/";
 
 export const NETFLIX_LOGO =
   "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico";
+
+export const INFO_ICON =
+  "https://img.icons8.com/sf-regular-filled/48/000000/information.png";
+
+export const OPEN_API_KEY =
+  "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";
