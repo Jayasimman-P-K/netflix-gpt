@@ -22,3 +22,12 @@
 - Netflix Gpt Page
   - Search Bar
   - Movie Suggestions
+
+### No of lines of code written in this repo:
+```
+{
+  "JavaScript": 27130,
+  "HTML": 868,
+  "CSS": 374
+}
+```
